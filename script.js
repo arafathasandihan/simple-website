@@ -2,7 +2,7 @@ document.getElementById("inputForm").addEventListener("submit", function(event) 
     event.preventDefault();
     const userInput = document.getElementById("userInput").value;
     
-    fetch("fetch("https://script.google.com/macros/s/AKfycbz9KUvJBPltVyvk1BgDFFxmq3uatx10GAKuPBJCH8mc/exec", {
+    fetch("fetch("https://script.google.com/macros/s/AKfycbxOhf6FWf4G5J7x2MhkiVFQdHQc6XmtqSUhtq5Jj4iCBdhN84F2q2i7n94vyzl2kPpdvQ/exec", {
 ", {
         method: "POST",
         body: JSON.stringify({ message: userInput }),
