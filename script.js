@@ -3,7 +3,7 @@ document.getElementById("inputForm").addEventListener("submit", function(event) 
     const userInput = document.getElementById("userInput").value;
     
     // Correct Web App URL
-    fetch("https://script.google.com/macros/s/AKfycbz9KUvJBPltVyvk1BgDFFxmq3uatx10GAKuPBJCH8mc/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbzmsSn8XaMqf44hNioB3zI5bTb8H1idyDTm7Qwyn7akjrQAQujH-jCl3optR7SO3b5WWw/exec", {
         method: "POST",
         body: JSON.stringify({ message: userInput }),
         headers: { "Content-Type": "application/json" }
